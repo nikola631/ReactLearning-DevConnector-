@@ -30,12 +30,12 @@ const ProfileSchema = new mongoose.Schema({
     },
     experience: [{
         title: {
-        type: String,
-        required: true
+            type: String,
+            required: true
         },
-        cmpany: {
-        type: String,
-        required: true
+        company: {
+            type: String,
+            required: true
         },
         location: {
             type: String
@@ -57,22 +57,22 @@ const ProfileSchema = new mongoose.Schema({
     }],
     education: [{
         school: {
-        type: String,
-        required: true
+            type: String,
+            required: true
         },
         degree: {
-        type: String,
-        required: true
+            type: String,
+            required: true
         },
         fieldofstudy: {
-        type: String,
-        required: true
+            type: String,
+            required: true
         },
         from: {
             type: Date,
             required: true,
         },
-        to:{
+        to: {
             type: Date
         },
         current: {
